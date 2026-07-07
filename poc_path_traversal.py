@@ -1,3 +1,4 @@
+at poc_path.py 
 """
 PoC: Path Traversal in pocketflow-coding-agent (PocketFlow cookbook)
 
@@ -19,8 +20,8 @@ chiqarilishi mumkin.
 import sys
 import os
 
-# nodes.py joylashgan katalogni import yo'liga qo'shamiz
-COOKBOOK_DIR = "/home/claude/PocketFlow/cookbook/pocketflow-coding-agent"
+# nodes.py joylashgan katalogni import yo'liga qo'shamiz 
+COOKBOOK_DIR = "/home/pwl/cve/PocketFlow/cookbook/pocketflow-coding-agent"
 sys.path.insert(0, COOKBOOK_DIR)
 
 from nodes import ReadFile, ListFiles, _path  # noqa: E402
@@ -87,3 +88,6 @@ print("=" * 70)
 print("XULOSA: Ikkala usul ham workdir sandboxidan tashqarida joylashgan")
 print("faylni o'qishga muvaffaq bo'ldi. Bu Path Traversal (CWE-22).")
 print("=" * 70)
+                                                                                                                                                             
+┌──(pwl㉿kali)-[~/cve/PocketFlow]
+└─$ 
