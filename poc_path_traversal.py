@@ -89,5 +89,4 @@ print("XULOSA: Ikkala usul ham workdir sandboxidan tashqarida joylashgan")
 print("faylni o'qishga muvaffaq bo'ldi. Bu Path Traversal (CWE-22).")
 print("=" * 70)
                                                                                                                                                              
-┌──(pwl㉿kali)-[~/cve/PocketFlow]
-└─$ 
+
